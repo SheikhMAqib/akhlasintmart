@@ -1,0 +1,10 @@
+[08-Jun-2018 16:46:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[18-Jun-2018 06:20:31 UTC] PHP Warning:  session_cache_limiter(): Cannot change cache limiter when session is active in /home/aksintma/public_html/php/contact-form-verify-captcha.php on line 3
+[13-Nov-2018 00:25:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[22-Nov-2018 20:43:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[20-Dec-2018 18:37:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[21-Dec-2018 04:04:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[29-Dec-2018 00:18:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[01-Jan-2019 19:41:46 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[19-Jan-2019 19:30:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45
+[24-Jan-2019 14:18:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/aksintma/public_html/php/php-mailer/PHPMailerAutoload.php on line 45

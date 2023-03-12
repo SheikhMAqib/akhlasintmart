@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    	<title>Join Now | Akhlas International Mart - Dreams Come True</title>	
+    	
+    	<style>
+    	    
+    	    body{
+    	        
+    	        background:#de1226;
+    	    }
+    	    *, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+ 
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+/*label[for*='1']:before { content: '\f1cb'; }*/
+/*label[for*='2']:before { content: '\f17d'; }*/
+/*label[for*='3']:before { content: '\f16b'; }*/
+/*label[for*='4']:before { content: '\f1a9'; }*/
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #fff;
+  border: 1px solid #ddd;
+ 
+  border-bottom: 1px solid #fff;
+  background-color:#ef3447;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5{
+  display: block;
+}
+#content1{
+    
+    background:url('images/paper.jpg')no-repeat;
+    background-size:cover;
+    padding:40px;
+}
+
+/*@media screen and (max-width: 650px) {*/
+/*  label {*/
+/*    font-size: 0;*/
+/*  }*/
+/*  label:before {*/
+/*    margin: 0;*/
+/*    font-size: 18px;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (max-width: 400px) {*/
+/*  label {*/
+/*    padding: 15px;*/
+/*  }*/
+/*}*/
+    	</style>
+  </head>
+  <body>
+    <form method="POST" action="jointhem.php">
+   <div class="container" style="margin-top:20px; text-align:center;">
+       
+       <div class="row">
+           <div class="col-md-12">
+               <img src="images/3d.png" alt="Akhlas International Mart" width="150px" height="auto"> 
+               <h3 style="color:#fff;">Season Application Form - AIM</h3>
+           </div>
+       </div>
+   </div>
+   
+   <div class="container" style="margin-top:100px;">
+       <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><i class="fas fa-file-alt"></i> Instructions</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><i class="fas fa-arrow-alt-circle-right"></i> Peronsal</label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3"><i class="fas fa-arrow-alt-circle-right"></i> Work</label>
+    
+  <input id="tab4" type="radio" name="tabs">
+  <label for="tab4"><i class="fas fa-arrow-alt-circle-right"></i> Package</label>
+   <input id="tab5" type="radio" name="tabs">
+  <label for="tab5"><i class="fas fa-arrow-alt-circle-right"></i> Payment</label>
+    
+  <section id="content1">
+    <p>
+    <strong> -  Read the instructions carefully before going to fill the registration form.</strong>
+    </p>
+    <p>
+      - Choose your plan according to your requirements and thats suits you more.
+    </p>
+     <p>
+     - There are two or more payment options you may choose whatever suits your or convenient.
+    </p>
+     <p>
+     - You have to submit your payments before 10 of every month.
+    </p>
+    <p>
+        - You have to confirm your payment after every payment by using payment confirmation, available on your dashboard.
+    </p>
+    <p>
+        - If you consistently exist in defaulters for 2 months, your account will be blocked.
+    </p>
+    <p>
+        - You get 2 reminders for your pay every month if you didn't submit payments even after these reminders then you will be blocked.
+    </p>
+    <p>
+        - If you complete your one season efficiently, you will get a reward.
+    </p>
+    <p>
+        - Information regarding your season is secure and in safe hands.
+    </p>
+    <p>
+        - Try to provide correct data regarding yourself because it will help you to get more benefits from our seasons.
+    </p>
+    <p>
+        - We will provide you with 24/7 fully customer support and maintenance.
+    </p>
+  </section>
+    
+  <section id="content2">
+  
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputfname">First name</label>
+      <input type="text" class="form-control" id="inputfname" placeholder="" name="fname" required>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputmname">Middle name</label>
+      <input type="text" class="form-control" id="inputmname" placeholder="" name="mname">
+    </div>
+     <div class="form-group col-md-4">
+         <label for="inputlname">Last name</label>
+      <input type="text" class="form-control" id="inputlname" placeholder="" name="lname" required>
+    </div>
+  </div>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputemail">Email</label>
+      <input type="email" class="form-control" id="inputemail" placeholder="" name="mail" required>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputphn">Phone</label>
+      <input type="text" class="form-control" id="inputphn" placeholder="" name="phn" >
+    </div>
+     <div class="form-group col-md-4">
+         <label for="inputmbl">Mobile</label>
+      <input type="text" class="form-control" id="inputmbl" placeholder="" name="mbl" required>
+    </div>
+  </div>
+   <br>
+ <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputdob">Date of Birth</label>
+      <input type="date" class="form-control" id="inputdob" placeholder="" name="dob" required>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputcnic">CNIC</label>
+      <input type="text" class="form-control" id="inputcnic" placeholder="" name="cnic" required>
+    </div>
+     <div class="form-group col-md-4">
+         <label for="inputgndr">Gender</label>
+      <select type="text" class="form-control" id="inputgndr" name="gen" required >
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+          </select>
+    </div>
+  </div>
+  <br>
+ <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputcity" >City</label>
+      <input type="text" class="form-control" id="inputcity" placeholder="" name="city" required>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputprvnce">Province</label>
+      <input type="text" class="form-control" id="inputprvnce" placeholder="" name="province" required>
+    </div>
+      <div class="form-group col-md-4">
+      <label for="inputcntry">Country</label>
+      <input type="text" class="form-control" id="inputcntry" placeholder="" name="country" required>
+    </div>
+  </div>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="inputadd1">Address 1</label>
+      <input type="text" class="form-control" id="inputadd1" placeholder="" name="add1" required>
+    </div>
+   
+  </div>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="inputadd2">Address 2</label>
+      <input type="text" class="form-control" id="inputadd2" placeholder="" name="add2">
+    </div>
+   
+  </div>
+  <br>
+
+  </section>
+    
+  <section id="content3">
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputedu">Education</label>
+      <input type="text" class="form-control" id="inputedu" placeholder="" name="edu">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputuni">University/College</label>
+      <input type="text" class="form-control" id="inputuni" placeholder="" name="uni">
+    </div>
+   
+  </div>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputjtitle">Job Title</label>
+      <input type="text" class="form-control" id="inputjtitle" placeholder="" name="jobt">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputdec">Description</label>
+      <input type="text" class="form-control" id="inputdec" placeholder="" name="jobd">
+    </div>
+     <div class="form-group col-md-2">
+         <label for="inputyear">Started Year</label>
+      <input type="text" class="form-control" id="inputyear" placeholder="" name="jobyear">
+    </div>
+  </div>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputbus">Business (Yes/No)</label>
+      <input type="text" class="form-control" id="inputbus" placeholder="" name="business">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputbname">Business Name</label>
+      <input type="text" class="form-control" id="inputbname" placeholder="" name="businessname">
+    </div>
+     <div class="form-group col-md-4">
+         <label for="inputfyear">Founded Year</label>
+      <input type="text" class="form-control" id="inputfyear" placeholder="" name="businessyear">
+    </div>
+  </div>
+  <br>
+  </section>
+    
+  <section id="content4">
+      
+    <div class="form-row">
+    <div class="form-group col-md-4" style="text-align:center;">
+      <label >Basic Plan</label>
+      <input type="checkbox" class="form-control" name="package" value="BASIC" ><img src="images/basic.png" alt="Basic Package" style="width:120px; height:auto;">
+    </div>
+     <div class="form-group col-md-4" style="text-align:center;">
+      <label >Premium Plan</label>
+      <input type="checkbox" class="form-control" name="package" value=" PREMIUM" ><img src="images/premium.png" alt="Premium Package" style="width:120px; height:auto;" >
+    </div>
+      <div class="form-group col-md-4" style="text-align:center;">
+      <label >Professional Plan</label>
+      <input type="checkbox" class="form-control" name="package" value="PROFESSIONAL" ><img src="images/professional.png" alt="Professional Package" style="width:120px; height:auto;" >
+    </div>
+  </div>
+  <br>
+  </section>
+  
+  <section id="content5">
+     <div class="form-row">
+    <div class="form-group col-md-4" style="text-align:center;">
+      <label >Bank Transfer</label>
+      <input type="checkbox" class="form-control"  name="payment" value="BANK TRANSFER" ><img src="images/bt.png" alt="Basic Package" style="width:120px; height:auto;">
+    </div>
+     <div class="form-group col-md-4" style="text-align:center;">
+      <label >Bank Deposit</label>
+      <input type="checkbox" class="form-control" name="payment" value="BANK DEPOSIT" ><img src="images/bbd.png" alt="Premium Package" style="width:120px; height:auto;" >
+    </div>
+      <div class="form-group col-md-4" style="text-align:center;">
+      <label >EasyPaisa</label>
+      <input type="checkbox" class="form-control" name="payment" value="EASYPAISA"><img src="images/ep.png" alt="Professional Package" style="width:120px; height:auto;" >
+    </div>
+  </div>
+  <br>
+  <div class="form-row">
+      <div class="form-group col-md-4" style="text-align:center;">
+      
+    </div>
+     <div class="form-group col-md-4" style="text-align:center;">
+     
+      <input type="reset" class="form-control" value="Cancel">
+    </div>
+      <div class="form-group col-md-4" style="text-align:center;">
+     
+      <input type="submit" class="form-control" value="Submit">
+    </div>
+  </div>
+  <br>
+   
+  </section>
+   </div>
+    </form>
+   
+   <script>
+      
+   </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
